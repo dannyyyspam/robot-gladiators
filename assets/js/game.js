@@ -46,6 +46,7 @@ var fight = function() {
     } else {
       window.alert(playerName + " still has " + playerHealth + " health left.");
     }
+    
     // if player choses to skip
   } else if (promptFight === "skip" || promptFight === "SKIP") {
     // confirm player wants to skip
